@@ -108,6 +108,7 @@
     "sinon": "1.17.6",
     "sinon-chai": "2.8.0",
     "style-loader": "0.13.1",
+    "styled-components": "1.4.2",
     "url-loader": "0.5.7",
     "webpack": "1.14.0",
     "webpack-bundle-analyzer": "2.1.1",
