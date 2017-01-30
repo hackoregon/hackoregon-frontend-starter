@@ -1,14 +1,14 @@
 language: node_js
 cache: yarn
 node_js:
-  - "6"
-  - "6.1"
+- '6'
+- '6.1'
 after_success:
-  - npm run test:cover:travis
+- npm run test:cover:travis
 deploy:
   provider: s3
   access_key_id: AKIAITRJ6ACY5DFWC7VA
   bucket: hackufrontendstartertest
   region: us-west-2
   secret_access_key:
-    secure: bt7LhfykGHBB81aB22kSAer2HyQgJN+7rCs4DHRvUbiZrlfgZ1pAiQBDjkHU2L+9MxUmduezx1DX30puHFxCFlrLxhPv3sAc2gmTtEXE5AyRMGURI4TpD/8RmHWNg0OEpUSL0iIEqPNBjYL/ojMYjjkuXDPpVxJRupbEnVlPWiBUl/6tFrAesGKWAwdf51mAZcNI9HpRP6IVrtuev7yJh6guiqMcertiJZ/h+0Klnbwzl/zJqWdlplOWxmlLPqs/PNmYcaN9efA8UO9O6RMrR6yRP5V0gxbzFOprdiWf5K3L6Pqa0aDfK3zj03G0TBhwaqucNCO5bMhv8osHSWBSReASIFqjcjJkbTqtobKQAgILwTBptGYn5OhRf1KraTrFMbG5P/TBbpWp8w+1Vskm4WLuPHoxluNPvQQ4Hd9ewvISMdEdE9zeKLGAH/pLFbgTUhrqo1Kuq3MG8yISq9cNgMdc6yjdLNezyQY/F/QzmiDf+CvELtkQdzkyZxBKDumxccbkWxzRXLcq78W1GNtQ/2GYRNhf13pet4OAwNRvR5u1mrc7ivl/i2MKJwpkVkPaoT5MK3k4jseGwjWcoeUJOng4GEuMWZD96PEEQrkuzssx3Y9OiyLZ0pRQ2gGe3EslviB7hAg6Ln1ZXDncxwAaLCpKq+rqDl0f395PsSzp2A0=
+    secure: gStCIoMDQkn+vgr78DlAidC/fcsU2p1i/F5KjYf/TfRmRKNKpsuI3D1dLMxOcmVHvvx91Lkbop4R4eSXqufUA85u77TtxOMO2u1eMedSL0f0an5+QQouHV9LRiu91AKuCkpi8IHCRIKMzWoKJ/z6dfiM1aDSY0+hmEuA1HCMZilwux3BkEfYrrUsoUbFMpneiLzdiZuo93F0u2+A5iFSF88HdULpKmCU5M/KNPZH672uc7L7AKJrbm5tzxYJvAk4+fyMbuTvXz+QPmIYWL1ELsYC8/0GIy33Cm9wubWNi+54TVlr2bxYdyBxVcqfVen+7vg/Srm/3rMIt3/odOkyCc1gBhDx9x9uICBDy9NJg0UncR/MpHSF5nAvSdsgKef8Pt8xrj+z4AjbMpKDm1cOxkxGlK6DGuIoyKzykURr27rJhL0xo3krzIBVyxCfml88Rk3+PMGpEZwVkc/oPl2XC7n8fyDSryiaEXG/V3GPgQVb5y2iH/pCs69nDeb6PIoBK6pQZQE5kmGwXKCvtux2fcIwq/n91ZI5jYwmjCkZpcZICeLXDmE1LyMisW2K8Wm1MTvWLYotJ0ivzLrjgh6Ur7gaJTw+SY+GtFJm9GYb1e+z+JYN4kO202iG/FXdZUaZB6zz6/G6lkjUZzHOgdFz9hgGo0V3XcxCVdNJz6i+9qc=
