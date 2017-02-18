@@ -23,6 +23,43 @@ Running tests with coverage will take longer, but it's good to know what lines s
 
 Much like `npm start`, `npm test` will watch files and automatically print out the new test output. Watch it in your terminal.
 
+#### Docker
+1. Clone the repository
+```
+git clone https://github.com/hackoregon/hackoregon-frontend-starter.git
+cd hackoregon-frontend-starter
+```
+
+
+2. Start up docker dev environment
+```
+docker run -p 3000:3000 -v $(pwd):/var/web -w /var/web -it --rm --entrypoint=/bin/bash --name=transportation-frontend node
+```
+
+3. Install dependencies within the development environment
+```
+npm i
+```
+
+4. Build and run the node app inside the dev environment
+```
+npm start
+```
+##### Testing
+All tests can also be ran inside the docker dev environment:
+```
+npm test
+```
+#### Code Coverage
+```
+npm run Coverage
+```
+
+#### Linting
+```
+npm run lint
+```
+
 #### Working with the [component library](https://github.com/hackoregon/component-library) and the project site at the same time
 
 The component library is required by each project site using an npm dependency. Npm offers a utility called [`npm link`](https://docs.npmjs.com/cli/link) for using a local copy of a dependency when developing.
