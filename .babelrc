@@ -3,14 +3,14 @@
     "latest",
     "react",
     "stage-0",
-    "es2015-node"
+    "es2015"
   ],
   "env": {
     "development": {
       "presets": [
         "react-hmre"
       ],
-      "plugins": ["transform-class-properties"],
+      "plugins": ["transform-class-properties"]
     },
     "production": {
       "plugins": [
