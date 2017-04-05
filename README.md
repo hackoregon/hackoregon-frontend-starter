@@ -1,13 +1,14 @@
 ## Hack OR Front-End Starter
 
 This is a starter kit for Hack Oregon front-end development using React + Redux.
-This repo should help get started and keep the different projects aligned.
+This repo should help get you started and keep the different projects aligned.
 
 #### Getting Started
-1. Get [Node 6.5 +](https://nodejs.org) - I recommend using [Node Version Manager](https://github.com/creationix/nvm).
-2. `git clone https://github.com/hackoregon/hackor-frontend-starter.git`.
-3. `npm i` - install
-4. `npm start` - start dev mode (watching tests + linter)
+1. Get [Node 6.5 +](https://nodejs.org) - I recommend using [Node Version Manager](https://github.com/creationix/nvm). Note: NVM does not support Windows. For Windows, you can use [nvm-windows](https://github.com/coreybutler/nvm-windows) or [nodist](https://github.com/marcelklehr/nodist) instead.
+2. `git clone https://github.com/hackoregon/hackoregon-frontend-starter.git`.
+3. 'cd hackoregon-frontend-starter'
+4. `npm i` - install
+5. `npm start` - start dev mode (watching tests + linter)
 
 Visit [localhost:3000](http://localhost:3000) in your browser to see the site.
 Save changes to files and the site will automatically update. No need to refresh!
